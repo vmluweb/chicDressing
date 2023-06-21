@@ -1,0 +1,28 @@
+<?php exit; ?>
+0aa252949695a7fe39b4ba951372ed5595ee99cb
+{
+    "plugin_version": "PhastPress-2.16-8",
+    "servicesUrl": "http://localhost/chicDressing/wp-content/plugins/phastpress/phast.php",
+    "securityToken": "BNWuriJiDyNA5yRDA/Y+OLrO49+UnKZwol1bHw==",
+    "images": {
+        "filters": {
+            "Kibo\\Phast\\Filters\\Image\\ImageAPIClient\\Filter": {
+                "enabled": true,
+                "plugin-version": "PhastPress-2.16-8"
+            }
+        }
+    },
+    "styles": {
+        "filters": {
+            "Kibo\\Phast\\Filters\\CSS\\ImageURLRewriter\\Filter": {
+                "enabled": true
+            }
+        }
+    },
+    "serviceRequestFormat": 2,
+    "compressServiceResponse": true,
+    "cdnHost": "localhost",
+    "alternativeServicesUrls": {
+        "http://localhost:80": "http://localhost/chicDressing/wp-content/plugins/phastpress/phast.php"
+    }
+}
